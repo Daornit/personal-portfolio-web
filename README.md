@@ -5,7 +5,7 @@
   batorgil.me - v1
 </h1>
 
-![demo](https://github.com/Daornit/personal-portfolio-web/blob/master/src/images/demo.png?raw=true)
+![demo](https://raw.githubusercontent.com/Daornit/personal-portfolio-web/master/src/images/demo.png)
 
 ## author of this repo is Brittany Chiang
 
