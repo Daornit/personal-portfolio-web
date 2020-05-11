@@ -21,7 +21,7 @@ module.exports = {
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/batorgil.it',
+      url: 'www.linkedin.com/in/batorgil-it',
     },
     {
       name: 'Facebook',
@@ -29,7 +29,7 @@ module.exports = {
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/batorgil.it',
+      url: 'https://twitter.com/BatorgilI',
     },
   ],
 
