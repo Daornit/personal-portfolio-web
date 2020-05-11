@@ -145,7 +145,7 @@ const Projects = ({ data }) => {
 
   return (
     <StyledContainer>
-      <StyledTitle ref={revealTitle}>Бусад тэмдэглэж болхуйц төслүүд</StyledTitle>
+      <StyledTitle ref={revealTitle}>Бусад тэмдэглэж болохуйц төслүүд</StyledTitle>
       <StyledArchiveLink to="/archive" ref={revealArchiveLink}>
         архив үзэх
       </StyledArchiveLink>

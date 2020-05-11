@@ -4,14 +4,15 @@ module.exports = {
     'Д.Бат-Оргил веб хөгжүүлэгч ба Улаанбаатар хотод байршилтай. Би web developer бөгөөд back-end талдаа илүү сонирхолтой. Үүгээрээч судалгаа хийнэ өөрийгөө хөгжүүлж байгаа.',
   siteKeywords:
     'Д.Бат-Оргил, batorgil, davaajantsan, daornit2, web developer, back-end developer, web developer, fullstack developer, javascript',
-  siteUrl: 'http://batorgil.tech',
+  siteUrl: 'http://batorgil.me',
   siteLanguage: 'mn_MN',
-  googleAnalyticsID: 'UA-45666519-2',
-  googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
+  googleAnalyticsID: '',
+  googleVerification: '',
   name: 'Даваажанцан Бат-Оргил',
-  location:  'Улаанбаатар, MN',
+  location: 'Улаанбаатар, MN',
   email: 'batorgil.it@gmail.com',
-  github: 'https://github.com/batorgil.it',
+  phone: '80140091',
+  github: 'https://github.com/Daornit',
   twitterHandle: '@batorgil.it',
   socialMedia: [
     {
@@ -38,11 +39,11 @@ module.exports = {
       url: '/#about',
     },
     {
-      name: 'Туршлага',
+      name: 'Ажлын туршлага',
       url: '/#jobs',
     },
     {
-      name: 'Ажил',
+      name: 'Төслүүд',
       url: '/#projects',
     },
     {

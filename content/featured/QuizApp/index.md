@@ -1,6 +1,6 @@
 ---
 date: '1'
-title: 'OctoProfile'
+title: 'Quiz App'
 cover: './quiz-app.png'
 github: 'https://github.com/Daornit/quiz-app'
 tech:
@@ -9,4 +9,4 @@ tech:
 showInProjects: true
 ---
 
-Асуулт болон хариулын жижиг хэмжээний веб апп. Redux-ийн тухай сурч байхдаа хийсэн болно. :)
+Асуулт болон хариултын жижиг хэмжээний веб апп. Redux-ийн тухай сурч байхдаа хийсэн болно.

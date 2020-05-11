@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 import sr from '@utils/sr';
-import { srConfig, email } from '@config';
+import { srConfig, email, phone } from '@config';
 import styled from 'styled-components';
 import { theme, mixins, media, Section, Heading } from '@styles';
 const { colors, fontSizes, fonts } = theme;
@@ -41,11 +41,13 @@ const StyledTitle = styled.h4`
 const StyledEmailLink = styled.a`
   ${mixins.bigButton};
   margin-top: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
 `;
 
 const Contact = ({ data }) => {
   const { frontmatter, html } = data[0].node;
-  const { title, buttonText } = frontmatter;
+  const { title, buttonText, buttonCall } = frontmatter;
   const revealContainer = useRef(null);
   useEffect(() => sr.reveal(revealContainer.current, srConfig()), []);
 
@@ -59,6 +61,9 @@ const Contact = ({ data }) => {
 
       <StyledEmailLink href={`mailto:${email}`} target="_blank" rel="nofollow noopener noreferrer">
         {buttonText}
+      </StyledEmailLink>
+      <StyledEmailLink href={`tel:${phone}`} target="_blank" rel="nofollow noopener noreferrer">
+        {buttonCall}
       </StyledEmailLink>
     </StyledContainer>
   );

@@ -153,6 +153,14 @@ const StyledJobDetails = styled.h5`
     width: 15px;
   }
 `;
+const StyledDescription = styled.div`
+  margin-top: 25px;
+  width: 100%;
+  max-width: 700px;
+  a {
+    ${mixins.inlineLink};
+  }
+`;
 
 const Jobs = ({ data }) => {
   const [activeTabId, setActiveTabId] = useState(0);
@@ -195,7 +203,7 @@ const Jobs = ({ data }) => {
 
   return (
     <StyledContainer id="jobs" ref={revealContainer}>
-      <Heading>Ажилж байсан газрууд</Heading>
+      <Heading>Ажлын туршлага</Heading>
       <StyledTabs>
         <StyledTabList role="tablist" aria-label="Job tabs" onKeyDown={e => onKeyPressed(e)}>
           {data &&
@@ -250,6 +258,13 @@ const Jobs = ({ data }) => {
             );
           })}
       </StyledTabs>
+
+      <StyledDescription style={{ transitionDelay: '400ms' }}>
+        <p>
+          Та бүхний харж байгаагаар би олон жил ажилсан туршлагатай хөгжүүлэгч бол биш. Гэхдээ
+          энгийн статик вебээс эхлүүлээд жижиг хэмжээний динамик вебүүдийг хийж чадна.
+        </p>
+      </StyledDescription>
     </StyledContainer>
   );
 };

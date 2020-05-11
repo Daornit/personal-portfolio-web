@@ -7,10 +7,11 @@ external: 'https://e-commerce-web-site.now.sh/'
 tech:
   - CMS
   - Node.js
-  - Express
+  - Express.js
   - GraphQl
   - MongoDB
+  - Next.js
 showInProjects: true
 ---
 
-Нийтлэл удирдлагын систем ба гол нь хэрэглэгчдэд бараа бүтээгдэхүүн худалдана авхад нь зөвөлгөө өгөх зорилготой.
+Нийтлэл удирдлагын систем (CMS) ийг өөрийн мэдлэгтэй тулгуурлан хэрэгжүүлж үзсэн.
