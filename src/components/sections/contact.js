@@ -53,7 +53,7 @@ const Contact = ({ data }) => {
 
   return (
     <StyledContainer id="contact" ref={revealContainer}>
-      <StyledHeading>Та юу хүсэж байна бэ?</StyledHeading>
+      <StyledHeading>Та юу хүсэж байна вэ?</StyledHeading>
 
       <StyledTitle>{title}</StyledTitle>
 
