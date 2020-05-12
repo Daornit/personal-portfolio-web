@@ -1,7 +1,7 @@
 module.exports = {
   siteTitle: 'Д.Бат-Оргил | Web Developer',
   siteDescription:
-    'Д.Бат-Оргил веб хөгжүүлэгч ба Улаанбаатар хотод байршилтай. Би web developer бөгөөд back-end талдаа илүү сонирхолтой. Үүгээрээч судалгаа хийнэ өөрийгөө хөгжүүлж байгаа.',
+    'Д.Бат-Оргил веб хөгжүүлэгч ба Улаанбаатар хотод байршилтай. Би web developer бөгөөд back-end талдаа илүү сонирхолтой. Энэ талаараа судалгаа хийж өөрийгөө хөгжүүлж байна.',
   siteKeywords:
     'Д.Бат-Оргил, batorgil, davaajantsan, daornit2, web developer, back-end developer, web developer, fullstack developer, javascript',
   siteUrl: 'http://batorgil.me',
